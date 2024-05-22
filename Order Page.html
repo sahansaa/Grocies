@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li id="logo">Grocies</li><br>
+                <li><a href="Home Page.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="#">Products</a>
+                <ul class="dropdown">
+                    <li><a href="Dairy Products.html">Dairy Products</a></li>
+                    <li><a href="Vegetables.html">Vegetables</a></li>
+                    <li><a href="Cosmetics and Skin Care.html">Cosmetics and Skincare</a></li>
+                </ul>
+                </li>
+                <li><a href="Order Page.html">Order Page</a></li>
+                <li><a href="Loyalty Registration.html">Loyalty</a></li>
+            </ul>
+        </nav>
+        <div class="order">
+            <h1 id="orderh1">Order Form</h1>
+            <div class="orderform">
+                <!-- Customer Details -->
+                <fieldset class="orderfield">
+                    <legend>Customer Details</legend>
+                        <label>First Name :</label>
+                            <input type="text" name="fname" placeholder="First Name">
+                        <label>Last Name :</label>
+                        <input type="text" name="lname" placeholder="Last Name"><br>
+                        <label>Email Address :</label>
+                        <input type="email" name="email" placeholder="Email">
+                        <label>Contact Number :</label>
+                        <input type="tel" name="mobile" placeholder="Contact Number"> <br>
+                        <label for="address">Delivery Address :</label>
+                        <textarea name="address" id="address" placeholder="Delivery Address"></textarea>
+                </fieldset>
+                <!-- Product Details -->
+                <fieldset class="orderfield">
+                    <legend>Product Details</legend>
+                        <label>Product Name :</label>
+                        <select name="Product" size="1">
+                        <!-- Dairy Products -->
+                            <option value="cheddar cheese">cheddar cheese</option>
+                            <option value="cheese slices">cheese slices</option>
+                            <option>cheese spread</option>
+                            <option>chocolate milk</option>
+                            <option>cooking cream</option>
+                            <option>curd</option>
+                            <option>fat spread</option>
+                            <option>fresh milk</option>
+                            <option>strawberry yoghurt</option>
+                            <option>mixed berry drinking yoghurt</option>
+                            <option>mixed berry yoghurt</option>
+                            <option>paneer cheese</option>
+                            <option>strawberry milk</option>
+                            <option>vanilla flavored milk</option>
+                            <option>whipped cream></option>
+                            <option>yoghurt</option>
+                        <!-- Vegetables -->
+                            <option>bell pepper</option>
+                            <option>brinjals</option>
+                            <option>cabbage</option>
+                            <option>capsicum</option>
+                            <option>carrot</option>
+                            <option>cauliflower</option>
+                            <option>cucumbers</option>
+                            <option>eggplant</option>
+                            <option>green beans</option>
+                            <option>leeks</option>
+                            <option>lime</option>
+                            <option>potatoes</option>
+                            <option>pumpkin</option>
+                            <option>red onion</option>
+                            <option>tomatoes</option>
+                        <!-- Cosmetics and Skin care -->
+                            <option>blush</option>
+                            <option>concealer</option>
+                            <option>day moisturizer</option>
+                            <option>foundation</option>
+                            <option>lip balm</option>
+                            <option>lip butter</option>
+                            <option>lip tint</option>
+                            <option>masacara</option>
+                            <option>niacinamide drops</option>
+                            <option>powder blush</option>
+                            <option>sun cream</option>
+                            <option>vitamin c cream</option>
+                        </select> <br>
+                    <label>Quantity :</label>
+                    <input type="text" name="qty" placeholder="eg; 1, 500g, 1kg">
+                    <label for="">Quantity type :</label>
+                    <input type="radio"><label>Grams</label> 
+                    <input type="radio"><label>KG</label> 
+                    <input type="radio"><label>Unit</label> 
+                </fieldset>
+                <!-- Payment Information -->
+                <fieldset class="orderfield">
+                    <legend>Payment Information</legend>
+                    <label for="">Payment Method :</label>
+                    <input type="radio"><label>Credit Card</label> 
+                    <input type="radio"><label>Debit Card</label> 
+                    <input type="radio"><label>Cash On Delivery</label> <br>
+                    <label for="">Card Holder's Name :</label>
+                    <input type="text" name="cholder" placeholder="Card Holder's Name">
+                    <label for="">Card Number :</label>
+                    <input type="text" name="cnumber" placeholder="Card Number"><br>
+                    <label for="">Expiry Date :</label>
+                    <input type="date" name="edate" placeholder="Expiry Date">
+                    <label for="">CVV / CVC number :</label>
+                    <input type="text" name="cvv" placeholder="CVV">
+                </fieldset>
+                <div class="formbtn">
+                    <input type="reset" name="reset" value="Reset Form">
+                    <input type="submit" name="submit" value="Place Order">
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="footer-area">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email : support@grocies.com</p>
+                <p>Phone : 011-475-6675</p>
+                <p>Address : No:148, Vauxhall Street, Colombo 2, Sri Lanka. </p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="Home Page.html">Home Page</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="Dairy Products.html">Dairy Products</a></li>
+                        <li><a href="Vegetables.html">Vegetables</a></li>
+                        <li><a href="Cosmetics and Skin Care.html">Cosmetics</a></li>
+                        <li><a href="Order Page.html">Order Page</a></li>
+                        <li><a href="Loyalty Registration.html">Loyalty Registration</a></li>
+                    </ul>    
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Grocies . All rights reserved</p>
+        </div>
+    </footer>
