@@ -729,6 +729,7 @@ nav ul li {
 /* Branches */
 
 #hbranch {
+  text-transform: uppercase;
   padding: 20px;
   text-align: center;
   color: #3d5347;
@@ -824,6 +825,7 @@ nav ul li {
 
 /* Services section */
 .services h1{
+  text-transform: uppercase;
   padding: 40px;
   color: #3d5347;
   font-size: larger;
