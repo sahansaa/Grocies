@@ -435,7 +435,7 @@ nav ul li {
   font-size: 1rem;
   border-radius: 5px;
   padding: 10px 20px;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 .flex-box .flex-container .flex-item .btn:hover{
@@ -447,8 +447,10 @@ nav ul li {
   .flex-box .flex-container .flex-item {
     width: 100%;
   }
+  .flex-box .flex-container .flex-item .btn{
+    margin-left: 20%;
 }
-
+}
 @media (min-width: 600px) and (max-width: 900px) {
   .flex-box .flex-container .flex-item {
     flex-wrap: wrap;
@@ -462,7 +464,7 @@ nav ul li {
     font-size: 0.7rem;
     border-radius: 5px;
     padding: 10px 20px;
-    margin-left: 15%;
+    margin-left: 20%;
   }
 }
 
