@@ -600,7 +600,7 @@ nav ul li {
   margin:15px;
   padding-left: 30%;
   padding-right: 30%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .cos-table {
@@ -1172,33 +1172,7 @@ footer {
   font-size: 10px;
 }
 
-.social-icons {
-  text-align: center;
-  padding: 0;
-}
 
-.social-icons li {
-  display: inline-block;
-  text-align: center;
-  padding: 5px;
-}
-
-.social-icons i {
-  color: white;
-  font-size: 25px;
-}
-
-.social-icons a {
-  text-decoration: none;
-}
-
-.social-icons a:hover {
-  color: #a1aea4;
-}
-
-.social-icons i:hover {
-  color: #a1aea4;
-}
 
 .copyright {
   background: #F6F5F2;
